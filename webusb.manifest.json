@@ -1,0 +1,11 @@
+{
+  "name": "S2 Mini PS4",
+  "version": "Auto Host",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "parts": [{ "path": "gh24b24seg.bin", "offset": 0 }]
+    }
+  ]
+}
